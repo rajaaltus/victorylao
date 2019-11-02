@@ -1,0 +1,27 @@
+.hero-image {
+    margin: 0 auto;
+    background: url('../images/homepage.jpg') no-repeat center top;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px)  {
+    .hero-image {
+        margin: 0 auto;
+        background: url('../images/home-mobile.jpg');
+        background-size: cover;
+        width:100vw;
+        height: 100vh;
+    }   
+}
+@media screen and (max-width: 375px)  {
+    .hero-image {
+        margin: 0 auto;
+        background: url('../images/home-mobile1.jpg');
+        background-size: cover;
+        width:100vw;
+        height: 100vh;
+    }   
+}
+
